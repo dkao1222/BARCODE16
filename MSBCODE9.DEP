@@ -1,0 +1,45 @@
+
+
+
+; Dependency file for setup wizards.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; Dependencies for MsBcode9.OCX
+
+
+; Default Dependencies ------------------------------------------------------
+
+
+[MSBCODE9.OCX]
+Dest=$(WinSysPath)
+Register=$(DLLSelfRegisterEx)
+Version=15.0.0.0
+Uses1=MSBARCODE.DLL
+
+[MSBARCODE.DLL]
+Dest=$(WinSysPath)
+
+; Localized Dependencies -----------------------------------------------------------
+
